@@ -38,7 +38,7 @@
 - Abrir o PROMPT utilizando Windows + R e digitando cmd na busca; <br> 
 - Digitar o comando:
 > ```
-> 	netstat -a -n -o
+>netstat -a -n -o
 > ``` 
 - Teclar Enter; <br>
 - Irá listar todos os processos que utilizam portas, onde estará primeiro o IP seguido por dois pontos e a porta na coluna "Endereço externo"; <br>
