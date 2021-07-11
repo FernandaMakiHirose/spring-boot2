@@ -106,6 +106,6 @@ spring.profiles.active=dev <br>
 - Executar projeto no terminal e exibir no browser <br>
 
 ## Passo 1 
-- As variáveis de ambiente foram definidas no AppController.java <br>
+- Defina as variáveis de ambiente no AppController.java <br>
 - No terminal exporte o valor da variável: export ENV_DB_URL=jdbc:h2:mem:db;DB_CLOSE_DELAY=-1 <br>
 - No terminal escreva também: mvn spring-boot:run <br>
