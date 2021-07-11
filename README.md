@@ -126,6 +126,16 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class AppController {
 
+package com.digitalinnovationone.springbootconfig.config;
+import lombok.Value;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+// ao executar o projeto vai mostrar a mensagem em desenvolvimento ou em produção
+
+@RestController
+public class AppController {
+
     @org.springframework.beans.factory.annotation.Value("${app.message}") // vai injetar todos os valores que tem o início app.message
     private String appMessage;
 
@@ -141,8 +151,7 @@ public class AppController {
     public String getDbEnviromentVariable() {
         return "A seguinte variável de ambiente foi passada: " +dbEnviromentVariable;
     }
-} 
-
+}
 
 - No terminal exporte o valor da variável: export ENV_DB_URL=jdbc:h2:mem:db;DB_CLOSE_DELAY=-1 <br>
 - No terminal escreva também: mvn spring-boot:run <br>
