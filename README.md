@@ -24,6 +24,16 @@
 - Para ver a versão do maven: mvn -v
 - Para executar o programa: mvn spring-boot:run
 
+- Para ver a versão do maven
+> ```
+>mvn -v
+> ```
+
+- Para executar o programa
+> ```
+>mvn spring-boot:run
+> ```
+
 ## Caso a porta 8080 foi usada mais de uma vez
 - Abrir o PROMPT utilizando Windows + R e digitando cmd na busca; <br> 
 - Digitar o comando:
