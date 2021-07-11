@@ -67,15 +67,15 @@
 - Adicione o código dentro: <br>
 
 > ```
-> 	app: <br>
->ㅤmessage: This is the property file to the ${spring.application.name} <br>
+> 	app: 
+>ㅤ  message: This is the property file to the ${spring.application.name}
 >
->  spring: <br>
->ㅤ datasource: <br>
->ㅤ driver-class-name: org.h2.Driver <br>
->ㅤ url: jdbc:h2:mem:db;DB_CLOSE_DELAY=-1 <br>
->ㅤ username: sa <br>
->ㅤ password: sa <br>
+>   spring: 
+>ㅤ  datasource: 
+>ㅤ  driver-class-name: org.h2.Driver 
+>ㅤ  url: jdbc:h2:mem:db;DB_CLOSE_DELAY=-1 
+>ㅤ  username: sa 
+>ㅤ  password: sa 
 > ```
 
 
