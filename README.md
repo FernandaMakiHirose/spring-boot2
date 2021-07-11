@@ -43,7 +43,10 @@
 - Teclar Enter; <br>
 - Irá listar todos os processos que utilizam portas, onde estará primeiro o IP seguido por dois pontos e a porta na coluna "Endereço externo"; <br>
 - Após encontrar a porta 8080, verificar o número do PID que se encontra a frente, depois da coluna "Estado"; <br>
-- Digitar o seguinte comando no próprio prompt, sem as aspas: tskill "NÚMERO DO PID" <br> 
+- Digitar o seguinte comando no próprio prompt, sem as aspas 
+> ```
+> 	git clone tskill "NÚMERO DO PID"
+> ```
 - Teclar enter e verificar se outro processo está usando a porta; <br>
 - Caso o comando "tskill" não funcione usar o seguinte, sem as aspas: <br>
 
