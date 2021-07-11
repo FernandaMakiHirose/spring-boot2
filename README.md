@@ -21,9 +21,6 @@
 - Ambientes com sua configuração: dev, production
 
 ## Comandos
-- Para ver a versão do maven: mvn -v
-- Para executar o programa: mvn spring-boot:run
-
 - Para ver a versão do maven
 > ```
 >mvn -v
