@@ -24,6 +24,16 @@
 - Para ver a versão do maven: mvn -v
 - Para executar o programa: mvn spring-boot:run
 
+## Caso a porta 8080 foi usada mais de uma vez
+- Abrir o PROMPT utilizando Windows + R e digitando cmd na busca; <br> 
+- Digitar o comando: netstat -a -n -o ; <br>
+- Teclar Enter; <br>
+- Irá listar todos os processos que utilizam portas, onde estará primeiro o IP seguido por dois pontos e a porta na coluna "Endereço externo"; <br>
+- Após encontrar a porta 8080, verificar o número do PID que se encontra a frente, depois da coluna "Estado"; <br>
+- Digitar o seguinte comando no próprio prompt, sem as aspas: tskill "NÚMERO DO PID" <br> 
+- Teclar enter e verificar se outro processo está usando a porta; <br>
+- Caso o comando "tskill" não funcione usar o seguinte, sem as aspas: <br>
+
 ## Passo 1
 - https://start.spring.io/
 - Maven project
