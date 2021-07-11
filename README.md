@@ -26,7 +26,10 @@
 
 ## Caso a porta 8080 foi usada mais de uma vez
 - Abrir o PROMPT utilizando Windows + R e digitando cmd na busca; <br> 
-- Digitar o comando: netstat -a -n -o <br>
+- Digitar o comando:
+> ```
+> 	netstat -a -n -o
+> ``` 
 - Teclar Enter; <br>
 - Irá listar todos os processos que utilizam portas, onde estará primeiro o IP seguido por dois pontos e a porta na coluna "Endereço externo"; <br>
 - Após encontrar a porta 8080, verificar o número do PID que se encontra a frente, depois da coluna "Estado"; <br>
@@ -63,15 +66,18 @@
 - Renomeie o application-dev.properties para application-dev.yml <br>
 - Adicione o código dentro: <br>
 
-app: <br>
+> ```
+> 	app: <br>
 ㅤmessage: This is the property file to the ${spring.application.name} <br>
 
-spring: <br>
-ㅤdatasource: <br>
-ㅤdriver-class-name: org.h2.Driver <br>
-ㅤurl: jdbc:h2:mem:db;DB_CLOSE_DELAY=-1 <br>
-ㅤusername: sa <br>
-ㅤpassword: sa <br>
+  spring: <br>
+ㅤ datasource: <br>
+ㅤ driver-class-name: org.h2.Driver <br>
+ㅤ url: jdbc:h2:mem:db;DB_CLOSE_DELAY=-1 <br>
+ㅤ username: sa <br>
+ㅤ password: sa <br>
+> ```
+
 
 - No application.properties, deixe como dev: <br>
 spring.profiles.active=dev <br>
