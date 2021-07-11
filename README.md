@@ -93,3 +93,14 @@ spring.profiles.active=dev <br>
 - No application.properties deixou em produção: spring.profiles.active=prod <br>
 - No terminal digite: mvn spring-boot:run -Dserver.port=8085 <br>
 - No navegador digite: localhost8085 <br>
+
+## Variáveis de ambiente 
+- Pode ser injetada através da anotação: @Value <br>
+- Injeção com anotação @Value({NOME_VARIAVEL}) <br>
+- Definição de valor default quando não há variável <br>
+
+## Exercício 4
+- Injetar a variável com o @Value em AppController <br>
+- Definição de valor default junto com a anotação @Value <br>
+- Criar método para chamada de novo método e exibir o valor <br>
+- Executar projeto no terminal e exibir no browser <br>
