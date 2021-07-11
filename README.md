@@ -26,7 +26,7 @@
 
 ## Caso a porta 8080 foi usada mais de uma vez
 - Abrir o PROMPT utilizando Windows + R e digitando cmd na busca; <br> 
-- Digitar o comando: netstat -a -n -o ; <br>
+- Digitar o comando: netstat -a -n -o <br>
 - Teclar Enter; <br>
 - Irá listar todos os processos que utilizam portas, onde estará primeiro o IP seguido por dois pontos e a porta na coluna "Endereço externo"; <br>
 - Após encontrar a porta 8080, verificar o número do PID que se encontra a frente, depois da coluna "Estado"; <br>
@@ -107,4 +107,5 @@ spring.profiles.active=dev <br>
 
 ## Passo 1 
 - As variáveis de ambiente foram definidas no AppController.java <br>
-- No terminal exporte o valor da variável: export ENV_DB_URL=jdbc:h2:mem:db;DB_CLOSE_DELAY=-1
+- No terminal exporte o valor da variável: export ENV_DB_URL=jdbc:h2:mem:db;DB_CLOSE_DELAY=-1 <br>
+- No terminal escreva também: mvn spring-boot:run <br>
