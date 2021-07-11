@@ -45,7 +45,7 @@
 - Após encontrar a porta 8080, verificar o número do PID que se encontra a frente, depois da coluna "Estado"; <br>
 - Digitar o seguinte comando no próprio prompt, sem as aspas 
 > ```
-> 	git clone tskill "NÚMERO DO PID"
+>git clone tskill "NÚMERO DO PID"
 > ```
 - Teclar enter e verificar se outro processo está usando a porta; <br>
 - Caso o comando "tskill" não funcione usar o seguinte, sem as aspas: <br>
@@ -81,14 +81,14 @@
 
 > ```
 >app: 
->  message: This is the property file to the ${spring.application.name}
+> message: This is the property file to the ${spring.application.name}
 >
 >spring: 
->  datasource: 
->  driver-class-name: org.h2.Driver 
->  url: jdbc:h2:mem:db;DB_CLOSE_DELAY=-1 
->  username: sa 
->  password: sa 
+> datasource: 
+> driver-class-name: org.h2.Driver 
+> url: jdbc:h2:mem:db;DB_CLOSE_DELAY=-1 
+> username: sa 
+> password: sa 
 > ```
 
 
