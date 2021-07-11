@@ -110,7 +110,7 @@ spring.profiles.active=dev <br>
 - No terminal digite: mvn spring-boot:run -Dserver.port=8085 <br>
 - No navegador digite
 > ```
-> 	localhost8085 
+>localhost8085 
 > ```
 
 ## Variáveis de ambiente 
