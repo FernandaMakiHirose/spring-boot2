@@ -104,3 +104,7 @@ spring.profiles.active=dev <br>
 - Definição de valor default junto com a anotação @Value <br>
 - Criar método para chamada de novo método e exibir o valor <br>
 - Executar projeto no terminal e exibir no browser <br>
+
+## Passo 1 
+- As variáveis de ambiente foram definidas no AppController.java <br>
+- No terminal exporte o valor da variável: export ENV_DB_URL=jdbc:h2:mem:db;DB_CLOSE_DELAY=-1
