@@ -107,5 +107,6 @@ spring.profiles.active=dev <br>
 
 ## Passo 1 
 - Defina as variáveis de ambiente no AppController.java <br>
+- Siga esse arquivo: https://github.com/FernandaMakiHirose/spring-boot2/blob/main/springbootconfig/variaveis-de-ambiente.txt 
 - No terminal exporte o valor da variável: export ENV_DB_URL=jdbc:h2:mem:db;DB_CLOSE_DELAY=-1 <br>
 - No terminal escreva também: mvn spring-boot:run <br>
