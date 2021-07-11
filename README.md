@@ -68,14 +68,14 @@
 
 > ```
 > 	app: <br>
-ㅤmessage: This is the property file to the ${spring.application.name} <br>
-
-  spring: <br>
-ㅤ datasource: <br>
-ㅤ driver-class-name: org.h2.Driver <br>
-ㅤ url: jdbc:h2:mem:db;DB_CLOSE_DELAY=-1 <br>
-ㅤ username: sa <br>
-ㅤ password: sa <br>
+>ㅤmessage: This is the property file to the ${spring.application.name} <br>
+>
+>  spring: <br>
+>ㅤ datasource: <br>
+>ㅤ driver-class-name: org.h2.Driver <br>
+>ㅤ url: jdbc:h2:mem:db;DB_CLOSE_DELAY=-1 <br>
+>ㅤ username: sa <br>
+>ㅤ password: sa <br>
 > ```
 
 
