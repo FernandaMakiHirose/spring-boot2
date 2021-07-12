@@ -89,9 +89,12 @@
 > ```
 
 - No application.properties, deixe como dev: <br>
-spring.profiles.active=dev <br>
-- No terminal execute: mvn spring-boot:run <br>
-- No seu navegador digite: localhost:8080 <br>
+spring.profiles.active=dev. <br>
+- No terminal execute.
+> ```
+> mvn spring-boot:run
+> ```
+- No seu navegador digite: localhost:8080. <br>
 
 ## Uso de command line
 - Propriedades do arquivo de configuração na linha de comando. <br>
