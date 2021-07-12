@@ -9,6 +9,9 @@
 - Criar método que retorna a mensagem acima.
 - Executar o projeto no browser.
 
+## Pré-requisitos
+- IDE e Java instalados.
+
 ## Multiplos ambientes
 - Bancos de dados para cada ambientes.
 - Execução de testes unitários em ambiente local.
