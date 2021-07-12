@@ -21,12 +21,12 @@
 - Ambientes com sua configuração: dev, production.
 
 ## Comandos
-- Para ver a versão do maven
+- Para ver a versão do maven.
 > ```
 >mvn -v
 > ```
 
-- Para executar o programa
+- Para executar o programa.
 > ```
 >mvn spring-boot:run
 > ```
