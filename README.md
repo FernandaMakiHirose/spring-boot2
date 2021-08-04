@@ -54,29 +54,29 @@
 - https://start.spring.io/
 - Maven project.
 - Java.
-- Não escolha a versão do snapshot, escolha a última versão.
-- Dê um nome para o Group e o Artifact.
+- Escolhi a última versão.
+- Dei um nome para o Group e o Artifact.
 - Dependência: Spring Web.
 
 ## Passo 2
-- Extraia e abra o projeto na IDE.
+- Extraí e abra o projeto na IDE.
 - Na pasta resources criou um arquivo application-dev.properties, arquivo de desenvolvimento.
 - Na pasta resources criou um arquivo application-prod.properties, é um arquivo de banco de dados, simula uma conexão com o mysql.
 - No pacote com.digitalinnovationone.springbootconfig, criou um pacote config e uma java class DBConfiguration.
 
 ## Passo 3
-- Adicione a dependência do lombok no pom.xml para configurar o getter e o setter. <br>
+- Adicionei a dependência do lombok no pom.xml para configurar o getter e o setter. <br>
 
 ## Passo 4
-- No arquivo application.properties adicionou um código. <br>
+- No arquivo application.properties adicionei um código. <br>
 - Dentro da pasta config, criou um java class AppController. <br>
 
 ## Projeto 2 Spring Boot
-- Migrar app.properties do profile dev para YML. <br>
-- Executar o projeto pelo terminal. <br>
+- Migrei app.properties do profile dev para YML. <br>
+- Executei o projeto pelo terminal. <br>
 
 ## Passo 1 
-- Renomeie o application-dev.properties para application-dev.yml. <br>
+- Renomeei o application-dev.properties para application-dev.yml. <br>
 - Adicione o código dentro: <br>
 
 > ```
@@ -91,7 +91,7 @@
 >  password: sa 
 > ```
 
-- No application.properties, deixe como dev: <br>
+- No application.properties, deixei como dev: <br>
 spring.profiles.active=dev. <br>
 - No terminal execute.
 > ```
@@ -105,13 +105,13 @@ spring.profiles.active=dev. <br>
 - Valores passados como argumento na execução do projeto. <br>
 
 ## Exercício 3 
-- Passar como argumento a propriedade server.port=8085.
-- Executar o projeto no terminal com o argumento.
-- Abrir o browser no endereço localhost:8085.
+- Passei como argumento a propriedade server.port=8085.
+- Executei o projeto no terminal com o argumento.
+- Abri o browser no endereço localhost:8085.
 
 ## Passo 1 
-- No application-prod.properties adicionou o código: server.port=8080. <br>
-- No application.properties deixou em produção: spring.profiles.active=prod. <br>
+- No application-prod.properties adicionei o código: server.port=8080. <br>
+- No application.properties deixei em produção: spring.profiles.active=prod. <br>
 - No terminal digite: mvn spring-boot:run -Dserver.port=8085. <br>
 - No navegador digite.
 > ```
@@ -124,15 +124,15 @@ spring.profiles.active=dev. <br>
 - Definição de valor default quando não há variável. <br>
 
 ## Exercício 4
-- Injetar a variável com o @Value em AppController. <br>
+- Injetei a variável com o @Value em AppController. <br>
 - Definição de valor default junto com a anotação @Value. <br>
-- Criar método para chamada de novo método e exibir o valor. <br>
-- Executar projeto no terminal e exibir no browser. <br>
+- Criei um método para chamada de novo método e exibi o valor. <br>
+- Executei o projeto no terminal e exibi no browser. <br>
 
 ## Passo 1 
-- Defina as variáveis de ambiente no AppController.java. <br>
+- Defini as variáveis de ambiente no AppController.java. <br>
 - <a href="https://github.com/FernandaMakiHirose/spring-boot2/blob/main/springbootconfig/variaveis-de-ambiente.txt">Siga este arquivo</a>
-- No terminal exporte o valor da variável:
+- No terminal exportei o valor da variável:
 > ```
 >export ENV_DB_URL=jdbc:h2:mem:db;DB_CLOSE_DELAY=-1 
 >mvn spring-boot:run
