@@ -60,15 +60,15 @@
 
 ## Passo 2
 - Extraí e abra o projeto na IDE.
-- Na pasta resources criou um arquivo application-dev.properties, arquivo de desenvolvimento.
-- Na pasta resources criou um arquivo application-prod.properties, é um arquivo de banco de dados, simula uma conexão com o mysql.
-- No pacote com.digitalinnovationone.springbootconfig, criou um pacote config e uma java class DBConfiguration.
+- Na pasta resources criei um arquivo application-dev.properties, arquivo de desenvolvimento.
+- Na pasta resources criei um arquivo application-prod.properties, é um arquivo de banco de dados, simula uma conexão com o mysql.
+- No pacote com.digitalinnovationone.springbootconfig, criei um pacote config e uma java class DBConfiguration.
 
 ## Passo 3
 - Adicionei a dependência do lombok no pom.xml para configurar o getter e o setter. <br>
 
 ## Passo 4
-- No arquivo application.properties adicionei um código. <br>
+- No arquivo application.properties adicionei código. <br>
 - Dentro da pasta config, criou um java class AppController. <br>
 
 ## Projeto 2 Spring Boot
